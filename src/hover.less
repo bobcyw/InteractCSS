@@ -1,0 +1,27 @@
+@import "../Hover/less/hover.less";
+
+.hover_border{
+  .rotate();
+  @border_width: 2px;
+  padding: @border_width;
+  &:hover{
+    animation: show 2s;
+    padding: 0;
+    border-width: @border_width;
+    border-style: solid;
+  }
+}
+
+#mark_down_document{
+  h3{
+    .float-shadow();
+  }
+  h2{
+    .underline-from-center();
+    @activeColor: #212121;
+    &:before{
+      background-color: #212121;
+      height: 2px;
+    }
+  }
+}
