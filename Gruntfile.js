@@ -1,5 +1,5 @@
 module.exports = function(grunt){
-  grunt.initConfig(
+  grunt.initConfig( 
     {
       less:{
         src:{
@@ -8,7 +8,7 @@ module.exports = function(grunt){
             compress: true,
             sourceMap: true,
             banner: "/*2016 InteractCSS*/"
-            
+
           },
           files:{
             "dist_compile/hover.css": "src/hover.less"
