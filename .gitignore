@@ -73,5 +73,5 @@ fabric.properties
 dist
 node_modules
 dist_compile
-Hover
+#Hover
 
